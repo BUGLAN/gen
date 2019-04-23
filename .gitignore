@@ -7,9 +7,7 @@ __pycache__
 # dist files
 build
 dist
-gen.egg-info
-simple_gen.egg-info
-generator.egg-info
+*.egg-info
 
 # editor files
 .idea
