@@ -23,5 +23,5 @@ mkdir -p ~/.gen/git/a
 3. 使用
 
 ```bash
-gen a
+gen git
 ```
