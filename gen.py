@@ -131,6 +131,14 @@ def main():
     gen_files(args.name)
 
 
+import click
+
+
+@click.command()
+def hello():
+    print('hello', end='')
+
+
 if __name__ == '__main__':
     main()
     # paths = parser_file_tree()
