@@ -12,5 +12,12 @@ setup(
         'console_scripts': [
             'gen = gen:main',
         ]
-    }
+    },
+    setup_requires=[
+        'pytest-runner'
+    ],
+    tests_require=[
+        'pytest',
+    ]
+
 )
