@@ -9,7 +9,7 @@ def long_long_description():
 
 setup(
     name='simple-gen',
-    version='0.0.0',
+    version='0.0.1',
     description='gen files',
     long_description=long_long_description(),
     author='buglan',
@@ -18,7 +18,8 @@ setup(
     install_requires=['click'],
     entry_points='''
         [console_scripts]
-        hello=gen:hello
+        hello = packages.gen:hello
+        s = packages.group:hello
     ''',
     setup_requires=[
         'pytest-runner'

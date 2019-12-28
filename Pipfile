@@ -1,15 +1,17 @@
 [[source]]
 name = "pypi"
-url = "https://pypi.org/simple"
+url = "https://pypi.tuna.tsinghua.edu.cn/simple"
 verify_ssl = true
 
 [dev-packages]
-pytest = {index = "https://pypi.tuna.tsinghua.edu.cn/simple",version = "*"}
-pytest-runner = {index = "https://pypi.tuna.tsinghua.edu.cn/simple",version = "*"}
-pytest-cov = {index = "https://pypi.tuna.tsinghua.edu.cn/simple",version = "*"}
+pytest = "*"
+pytest-runner = "*"
+pytest-cov = "*"
+simple-gen = {editable = true,path = "."}
 
 [packages]
 click = "*"
 
 [requires]
 python_version = "3.7"
+.eggs/

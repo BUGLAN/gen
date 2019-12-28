@@ -1,4 +1,4 @@
-from gen import hello
+from packages.gen import hello
 
 
 def test_gen_feature(runner):
