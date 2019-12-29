@@ -9,7 +9,7 @@ def long_long_description():
 
 setup(
     name='simple-gen',
-    version='0.0.1',
+    version='2019.12.29',
     description='gen files',
     long_description=long_long_description(),
     author='buglan',
