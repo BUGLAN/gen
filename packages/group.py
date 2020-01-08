@@ -1,4 +1,6 @@
 import click
+import jwt
+from packages.j import decode_jwt_without_verify
 
 
 @click.command()
@@ -11,3 +13,14 @@ def hello(s):
         else:
             raw += value.lower()
     click.echo(raw)
+
+
+@click.command()
+@click.argument("token", nargs=1)
+def jwt_tool(token):
+    try:
+        decode_token = decode_jwt_without_verify(token)
+    except jwt.PyJWTError:
+        click.echo("sorry your token is invalid")
+    else:
+        click.echo(decode_token)

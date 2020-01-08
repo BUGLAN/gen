@@ -15,11 +15,12 @@ setup(
     author='buglan',
     author_email='1831353087@qq.com',
     packages=find_packages(),
-    install_requires=['click'],
+    install_requires=['click', 'PyJWT'],
     entry_points='''
         [console_scripts]
         hello = packages.gen:hello
         s = packages.group:hello
+        jwt = packages.group:jwt_tool
     ''',
     setup_requires=[
         'pytest-runner'

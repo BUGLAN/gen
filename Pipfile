@@ -11,7 +11,8 @@ simple-gen = {editable = true,path = "."}
 
 [packages]
 click = "*"
+pyjwt = "*"
+simple-gen = {editable = true,path = "."}
 
 [requires]
 python_version = "3.7"
-.eggs/

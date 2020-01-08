@@ -1,27 +1,25 @@
-> gen files
+> gen tools
 
-## 安装
+
+self toolbox, and you can consumer it
+
+## install
 
 ```bash
 pip install simple-gen --user
 ```
 
-## 使用
-
-1. 创建配置文件
+# how to use
 
 ```bash
-mkdir ~/.gen
+s some
 ```
 
-2. 配置
+### jwt command
+
 
 ```bash
-mkdir -p ~/.gen/git/a
-```
+jwt token
 
-3. 使用
-
-```bash
-gen git
+{'exp': 1578686400, 'id': 39, 'sub': '18879478306'}
 ```
