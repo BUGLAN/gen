@@ -8,6 +8,7 @@ pytest = "*"
 pytest-runner = "*"
 pytest-cov = "*"
 simple-gen = {editable = true,path = "."}
+twine = "*"
 
 [packages]
 click = "*"

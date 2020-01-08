@@ -9,9 +9,8 @@ def long_long_description():
 
 setup(
     name='simple-gen',
-    version='2019.12.29',
+    version='2020.01.08',
     description='gen files',
-    long_description=long_long_description(),
     author='buglan',
     author_email='1831353087@qq.com',
     packages=find_packages(),
