@@ -20,6 +20,7 @@ setup(
         hello = packages.gen:hello
         s = packages.group:hello
         jwt = packages.group:jwt_tool
+        gen = packages.group:gen_file
     ''',
     setup_requires=[
         'pytest-runner'
